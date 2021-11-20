@@ -24,7 +24,7 @@ var ball = {
     dy:3
 }
 
-function play(){
+function start(){
   gameStatus="start";
   document.getElementById('status').innerHTML="status: game is loaded";
 }
@@ -62,7 +62,7 @@ function draw(){
  image(video, 0,0, 700, 600); 
 
 if(gameStatus=='start'){
-  
+
 }
   
  fill("black");
